@@ -2236,3 +2236,7 @@ body.dark-mode .footer__social-link:nth-child(6):hover img {
   margin-bottom: 20px;
   text-align: left;
 }
+html, body {
+  overflow-x: hidden;
+}
+
