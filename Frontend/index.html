@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== FAVICON ===============-->
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png"> -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/logoicon.png">
+    <!-- <link rel="icon" type="image/png"  href="assets/favicons/favicon-16x16.png"> -->
+    <link rel="manifest" href="assets/favicons/site.webmanifest">
+    <!-- <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5"> -->
+    <!-- <link rel="shortcut icon" href="assets/favicons/favicon.ico"> -->
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#a789d4">
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title> Preksha's Portfolio </title>
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+<!-- Overlay for mobile nav -->
+<div class="nav__overlay" id="nav-overlay"></div>
+
+<header class="header" id="header">
+  <nav class="nav container nav__brand">
+    <a href="#" class="nav__logo">Preksha</a>
+
+    <!-- Toggle button -->
+    <div class="nav__toggle" id="nav-toggle">
+      <i class='bx bx-menu'></i>
+    </div>
+
+    <!-- Navigation menu -->
+    <div class="nav__menu" id="nav-menu">
+   <ul class="nav__list">
+  <li class="nav__item"><a href="#home" class="nav__link"><i class='bx bx-home'></i></a></li>
+  <li class="nav__item"><a href="#about" class="nav__link"><i class='bx bx-user'></i></a></li>
+  <li class="nav__item"><a href="#skills" class="nav__link"><i class='bx bx-book'></i></a></li>
+  <li class="nav__item"><a href="#education" class="nav__link"><i class='bx bxs-graduation'></i></a></li>
+  <li class="nav__item"><a href="#experience" class="nav__link"><i class='bx bx-id-card'></i></a></li>
+  <li class="nav__item"><a href="#services" class="nav__link"><i class='bx bx-wrench'></i></a></li>
+  <li class="nav__item"><a href="#project" class="nav__link"><i class='bx bx-laptop'></i></a></li>
+  <li class="nav__item"><a href="#achievements" class="nav__link"><i class='bx bx-trophy'></i></a></li>
+  <li class="nav__item"><a href="#contact" class="nav__link"><i class='bx bx-message'></i></a></li>
+</ul>
+
+
+      <!-- Dark mode toggle -->
+<div class="dark-mode-toggle">
+  <input type="checkbox" id="dark-toggle" hidden>
+  <label for="dark-toggle" class="toggle-icon" aria-label="Toggle dark mode">
+    <i class='bx bx-moon'></i>
+    <i class='bx bx-sun'></i>
+  </label>
+</div>
+
+    </div>
+  </nav>
+</header>
+
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+       <section class="home section" id="home">
+  <div class="home__container container grid">
+    
+    <div class="home__data">
+      <span class="home__greeting">Hello, I'm</span>
+      <h1 class="home__name">Preksha Jain</h1>
+      <h3 class="home__education">Full Stack Developer | MERN | C++</h3>
+      
+      <div class="home__button">
+        <a download href="assets/pdf/resume_prek.pdf" class="button button--ghost">Download Resume</a>
+        <a href="#about" class="button">About</a>
+      </div>
+    </div>
+
+    <div class="home__handle">
+      <img src="assets/img/preksha.png" alt="Preksha Jain" class="home__img">
+    </div>
+
+    <div class="home__social">
+      <a href="https://www.linkedin.com/in/preksha-jain03" target="_blank" class="home__social-link linkedin">
+        <i class='bx bxl-linkedin'></i>
+      </a>
+      <a href="https://github.com/PrekshaJain1909" target="_blank" class="home__social-link github">
+        <i class='bx bxl-github'></i>
+      </a>
+      <a href="https://leetcode.com/u/Preksha_1909/" class="home__social-link leetcode" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" style="height: 1rem; width: 1rem;">
+</a>
+    </div>
+
+    <a href="#about" class="home__scroll">
+      <i class='bx bx-mouse home__scroll-icon'></i>
+      <span class="home__scroll-name">Scroll Down</span>
+    </a>
+
+  </div>
+</section>
+
+        <!--=============== ABOUT ===============-->
+       <section class="about section" id="about">
+  <span class="section__subtitle">My Intro</span>
+  <h2 class="section__title">About Me</h2>
+
+  <div class="about__container container grid">
+    <img src="assets/img/prek.jpg" alt="About Preksha" class="about__img" />
+
+    <div class="about__data">
+      <div class="about__info">
+        <div class="about__box">
+          <i class='bx bx-award about__icon'></i>
+          <h3 class="about__title">Experience</h3>
+          <span class="about__subtitle">2+ Years Coding</span>
+        </div>
+
+        <div class="about__box">
+          <i class='bx bx-briefcase-alt about__icon'></i>
+          <h3 class="about__title">Completed</h3>
+          <span class="about__subtitle">15+ Projects</span>
+        </div>
+
+        <div class="about__box">
+  <i class='bx bx-heart about__icon'></i>
+  <h3 class="about__title">Social Goals</h3>
+  <span class="about__subtitle">Support Orphans, Animals <br> & Old Age Homes</span>
+</div>
+
+      </div>
+
+      <p class="about__description">
+       I’m Preksha Jain, selected for the prestigious Super 30 program by Anand Kumar Sir. With 500+ LeetCode problems solved in C++,
+I’m deeply passionate about clean, efficient code.
+<br>
+As a full-stack developer, I’ve built projects like GrowPaisa using the MERN stack, and gained practical backend experience through
+internships at Globe Capital Market Limited and Parihar India.
+      </p>
+
+      <a href="#contact" class="button about__button-contact">Contact Me</a>
+    </div>
+  </div>
+</section>
+
+<section class="experience section" id="experience">
+  <h2 class="section__title">Experience</h2>
+  <span class="section__subtitle">My professional journey</span>
+  <br>
+  <div class="experience__container container">
+    <div class="experience__timeline">
+
+      <!-- Parihar Tech -->
+      <div class="experience__item">
+        <div class="experience__dot"></div>
+        <div class="experience__card">
+          <h3 class="experience__title">Software Development Engineer Intern</h3>
+          <span class="experience__company">Parihar India <br>Feb 2025 – July 2025</span>
+          <p class="experience__description">
+            • Developed and maintained responsive websites using MERN stack.<br>
+            • Integrated frontend designs with backend APIs for dynamic user experiences.<br>
+            • Collaborated with the team to debug, test, and deploy production-ready code.
+          </p>
+        </div>
+      </div>
+
+      <!-- Globe Capital -->
+      <div class="experience__item">
+        <div class="experience__dot"></div>
+        <div class="experience__card">
+          <h3 class="experience__title">Software Developer Engineering Intern</h3>
+          <span class="experience__company">Globe Capital Market Limited<br>Jul 2024 – Aug 2024</span>
+          <p class="experience__description">
+            • Developed scalable backend solutions using Node.js and MongoDB.<br>
+            • Ensured efficient data handling and robust API performance.<br>
+            • Worked with cross-functional teams to enhance application features and improve system reliability.
+          </p>
+        </div>
+      </div>
+
+      <!-- Campus Block -->
+      <div class="experience__item">
+        <div class="experience__dot"></div>
+        <div class="experience__card">
+          <h3 class="experience__title">Head – Campus Block, BVP</h3>
+          <span class="experience__company">Apr 2023 – June 2025 | Delhi, India</span>
+          <p class="experience__description">
+            • Led planning and publicity of campus events, promoting involvement and outreach.<br>
+            • Oversaw public relations and event strategy to increase organizational influence.<br>
+            • Skills: Event Management, Event Planning, Public Speaking, Publicity, PR.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+ <!--=============== SERVICES ===============-->
+       <section class="services section" id="services">
+  <h2 class="section__title">Services</h2>
+  <span class="section__subtitle">What I Offer</span>
+
+  <div class="services__container">
+    
+    <!-- Service 1: Frontend Development -->
+    <div class="services__content">
+      <div class="services__card">
+        <i class="uil uil-web-grid services__icon"></i>
+        <h3 class="services__title">Frontend <br> Developer</h3>
+        <span class="services__button">View More 
+          <i class="uil uil-arrow-right services__button-icon"></i>
+        </span>
+      </div>
+
+      <div class="services__modal">
+        <div class="services__modal-content">
+          <i class="uil uil-times services__modal-close"></i>
+          <h3 class="services__modal-title">Frontend Developer</h3>
+          <p class="services__modal-description">
+            I build responsive and interactive user interfaces using HTML, CSS, JavaScript, and React.js. I focus on clean UI, accessibility, and performance across all devices.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service 2: Backend Development -->
+    <div class="services__content">
+      <div class="services__card">
+        <i class="uil uil-server services__icon"></i>
+        <h3 class="services__title">Backend <br> Developer</h3>
+        <span class="services__button">View More 
+          <i class="uil uil-arrow-right services__button-icon"></i>
+        </span>
+      </div>
+
+      <div class="services__modal">
+        <div class="services__modal-content">
+          <i class="uil uil-times services__modal-close"></i>
+          <h3 class="services__modal-title">Backend Developer</h3>
+          <p class="services__modal-description">
+            I develop robust RESTful APIs and backend services using Node.js, Express, MongoDB, and MySQL. I focus on security, scalability, and optimized performance.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service 3: Full Project Development -->
+    <div class="services__content">
+      <div class="services__card">
+        <i class="uil uil-layer-group services__icon"></i>
+        <h3 class="services__title">Full-Stack <br> Solutions</h3>
+        <span class="services__button">View More 
+          <i class="uil uil-arrow-right services__button-icon"></i>
+        </span>
+      </div>
+
+      <div class="services__modal">
+        <div class="services__modal-content">
+          <i class="uil uil-times services__modal-close"></i>
+          <h3 class="services__modal-title">Full-Stack Solutions</h3>
+          <p class="services__modal-description">
+            I handle end-to-end development for websites and applications — from designing intuitive UIs to building powerful backends and deploying production-ready projects.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+        <!--=============== SKILLS ===============-->     
+   <section class="skills section" id="skills">
+  <h2 class="section__title">My Skills</h2>
+
+  <div class="skills__filter">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="frontend">Frontend</button>
+    <button class="filter-btn" data-filter="backend">Backend</button>
+    <button class="filter-btn" data-filter="tools">Tools</button>
+  </div>
+
+  <div class="skills__container">
+    <!-- FRONTEND SKILLS -->
+    <div class="skill__card frontend">
+      <h3>HTML</h3>
+      <div class="skill-bar"><div class="progress" style="width: 95%"></div></div>
+    </div>
+
+    <div class="skill__card frontend">
+      <h3>CSS</h3>
+      <div class="skill-bar"><div class="progress" style="width: 90%"></div></div>
+    </div>
+
+    <div class="skill__card frontend">
+      <h3>JavaScript</h3>
+      <div class="skill-bar"><div class="progress" style="width: 92%"></div></div>
+    </div>
+
+    <div class="skill__card frontend">
+      <h3>React.js</h3>
+      <div class="skill-bar"><div class="progress" style="width: 88%"></div></div>
+    </div>
+
+    <div class="skill__card frontend">
+      <h3>Bootstrap</h3>
+      <div class="skill-bar"><div class="progress" style="width: 85%"></div></div>
+    </div>
+
+    <div class="skill__card frontend">
+      <h3>Material UI</h3>
+      <div class="skill-bar"><div class="progress" style="width: 80%"></div></div>
+    </div>
+
+    <div class="skill__card frontend">
+      <h3>Tailwind CSS</h3>
+      <div class="skill-bar"><div class="progress" style="width: 85%"></div></div>
+    </div>
+
+    <!-- BACKEND SKILLS -->
+    <div class="skill__card backend">
+      <h3>Node.js</h3>
+      <div class="skill-bar"><div class="progress" style="width: 85%"></div></div>
+    </div>
+
+    <div class="skill__card backend">
+      <h3>Express.js</h3>
+      <div class="skill-bar"><div class="progress" style="width: 83%"></div></div>
+    </div>
+
+    <div class="skill__card backend">
+      <h3>MongoDB</h3>
+      <div class="skill-bar"><div class="progress" style="width: 80%"></div></div>
+    </div>
+
+    <div class="skill__card backend">
+      <h3>MySQL</h3>
+      <div class="skill-bar"><div class="progress" style="width: 78%"></div></div>
+    </div>
+
+    <div class="skill__card backend">
+      <h3>TypeScript</h3>
+      <div class="skill-bar"><div class="progress" style="width: 75%"></div></div>
+    </div>
+
+    <div class="skill__card backend">
+      <h3>Java</h3>
+      <div class="skill-bar"><div class="progress" style="width: 72%"></div></div>
+    </div>
+
+    <div class="skill__card backend">
+      <h3>Python</h3>
+      <div class="skill-bar"><div class="progress" style="width: 70%"></div></div>
+    </div>
+
+    <div class="skill__card backend">
+      <h3>C++</h3>
+      <div class="skill-bar"><div class="progress" style="width: 90%"></div></div>
+    </div>
+
+    <!-- TOOLS & DEPLOYMENT -->
+    <div class="skill__card tools">
+      <h3>Git</h3>
+      <div class="skill-bar"><div class="progress" style="width: 85%"></div></div>
+    </div>
+
+    <div class="skill__card tools">
+      <h3>Docker</h3>
+      <div class="skill-bar"><div class="progress" style="width: 70%"></div></div>
+    </div>
+
+    <div class="skill__card tools">
+      <h3>Deployment (Netlify, Vercel, Render)</h3>
+      <div class="skill-bar"><div class="progress" style="width: 75%"></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- Education Section -->
+<section class="education section" id="education">
+  <h2 class="section__title">Education</h2>
+  <span class="section__subtitle">My Academic Journey</span>
+
+  <div class="education__container container">
+    <div class="education__timeline">
+
+      <!-- B.Tech -->
+      <div class="education__item">
+        <div class="education__dot"></div>
+        <div class="education__card">
+          <h3 class="education__title">B.Tech in Information Technology</h3>
+          <span class="education__institute">Bharati Vidyapeeth's College of Engineering, GGSIPU | 2022 – 2026</span>
+          <p class="education__description">
+            Pursuing full-time engineering with a focus on Full-Stack Development, DSA, and Software Engineering.<br>
+            <strong>Percentage:</strong> 81.09%
+          </p>
+        </div>
+      </div>
+
+      <!-- 12th -->
+      <div class="education__item">
+        <div class="education__dot"></div>
+        <div class="education__card">
+          <h3 class="education__title">Senior Secondary (Class XII)</h3>
+          <span class="education__institute">Annie Besant International School | 2021</span>
+          <p class="education__description">
+            Stream: PCM <br>
+            <strong>Board:</strong> CBSE<br>
+            <strong>Percentage:</strong> 81.20%
+          </p>
+        </div>
+      </div>
+
+      <!-- 10th -->
+      <div class="education__item">
+        <div class="education__dot"></div>
+        <div class="education__card">
+          <h3 class="education__title">Secondary (Class X)</h3>
+          <span class="education__institute">Nav Jeewan Adarsh Public Sr. Sec. School | 2019</span>
+          <p class="education__description">
+            <strong>Board:</strong> CBSE<br>
+            <strong>Percentage:</strong> 86.20%
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+        <!--=============== WORK ===============-->
+        <!-- Buttons -->
+<section class="services section" id="services">
+  <h2 class="section__title">Projects</h2>
+  <div class="services__container">
+
+    <!-- Service 1: Portfolio Website -->
+    <div class="services__content">
+      <div class="services__card">
+        <img src="assets/img/portfolio.png" alt="Portfolio Website" class="project__img">
+        <i class="uil uil-browser services__icon"></i>
+        <h3 class="services__title">Portfolio <br> Website</h3>
+        <span class="services__button">View More 
+          <i class="uil uil-arrow-right services__button-icon"></i>
+        </span>
+      </div>
+      <div class="services__modal">
+        <div class="services__modal-content">
+          <i class="uil uil-times services__modal-close"></i>
+          <h3 class="services__modal-title">Portfolio Website</h3>
+          <p class="services__modal-description">Created a responsive and interactive portfolio using modern web technologies to display project work, technical strengths, and UI design skills.</p>
+          <a href="https://yourportfolio.demo" target="_blank" class="work__btn">Demo</a>
+          <a href="https://github.com/yourgithub/portfolio" target="_blank" class="work__btn">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- GrowPaisa -->
+    <div class="services__content">
+      <div class="services__card">
+        <img src="assets/img/growpaisa.png" alt="GrowPaisa Website" class="project__img">
+        <i class="uil uil-chart services__icon"></i>
+        <h3 class="services__title">GrowPaisa <br> Platform</h3>
+        <span class="services__button">View More 
+          <i class="uil uil-arrow-right services__button-icon"></i>
+        </span>
+      </div>
+      <div class="services__modal">
+        <div class="services__modal-content">
+          <i class="uil uil-times services__modal-close"></i>
+          <h3 class="services__modal-title">GrowPaisa-A robust platform to help users manage and track investments efficiently.</h3>
+          <p class="services__modal-description">
+
+🔐 Built using MERN Stack – MongoDB, Express, React, and Node.js
+<br>
+🔒 Implemented secure user authentication using Google OAuth
+<br>
+📊 Enabled real-time portfolio tracking and investment summaries
+<br>
+📈 Integrated a visually rich dashboard with dynamic charts and financial insights
+<br>
+💻 Designed a clean, responsive UI/UX for seamless user experience across devices
+<br>
+🧩 Developed a modular and scalable backend architecture for future enhancements</p>
+          <a href="https://growpaisa.demo" target="_blank" class="work__btn">Demo</a>
+          <a href="https://github.com/yourgithub/growpaisa" target="_blank" class="work__btn">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navakar Service -->
+    <div class="services__content">
+      <div class="services__card">
+        <img src="assets/img/schoolbus.webp" alt="NavKar Website" class="project__img">
+        <i class="uil uil-bus services__icon"></i>
+        <h3 class="services__title">Navakar <br> Service</h3>
+        <span class="services__button">View More 
+          <i class="uil uil-arrow-right services__button-icon"></i>
+        </span>
+      </div>
+      <div class="services__modal">
+        <div class="services__modal-content">
+          <i class="uil uil-times services__modal-close"></i>
+          <h3 class="services__modal-title">Navakar Service – Bus Fee Management Web Application</h3>
+          <p class="services__modal-description">
+            
+🚌 Designed a simple and efficient web-based system to automate student bus fee record management
+<br>
+💳 Enabled admins to add, update, and delete student fee records through a clean UI
+<br>
+📋 Implemented features to track pending and paid fees in real time
+<br>
+🧾 Developed automatic receipt generation and fee summaries for streamlined operations
+          </p>
+          <a href="https://prek-simon-says-game.vercel.app/" target="_blank" class="work__btn">Demo</a>
+          <a href="https://github.com/PrekshaJain1909/Simon-Says-Game" target="_blank" class="work__btn">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- More Projects (Same Format Below) -->
+
+    <!-- Airbnb Clone -->
+    <div class="services__content">
+      <div class="services__card">
+         <img src="assets/img/airbnb.png" alt="Airbnb Website" class="project__img">
+        <i class="uil uil-home services__icon"></i>
+        <h3 class="services__title"><br> Clone</h3>
+        <span class="services__button">View More 
+          <i class="uil uil-arrow-right services__button-icon"></i>
+        </span>
+      </div>
+      <div class="services__modal">
+        <div class="services__modal-content">
+          <i class="uil uil-times services__modal-close"></i>
+          <h3 class="services__modal-title">Airbnb Clone – Full-Stack Web Application (MERN Stack)</h3>
+          <p class="services__modal-description">
+   
+🏡 Developed a full-stack Airbnb clone with features like user authentication, property listings, and booking functionality
+<br>
+📝 Integrated a review and rating system to enhance user interaction
+<br>
+☁️ Used cloud storage (e.g., Cloudinary) for secure image uploads
+<br>
+⚙️ Optimized backend APIs for efficient data retrieval and improved performance
+<br>
+📱 Built a responsive UI for seamless user experience across devices
+
+
+          </p>
+          <a href="https://prek-simon-says-game.vercel.app/" target="_blank" class="work__btn">Demo</a>
+          <a href="https://github.com/PrekshaJain1909/Simon-Says-Game" target="_blank" class="work__btn">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- DawaWare -->
+    <div class="services__content">
+      <div class="services__card">
+         <img src="assets/img/dawaware.png" alt="Dawaware Website" class="project__img">
+        <i class="uil uil-capsule services__icon"></i>
+        <h3 class="services__title">DawaWare <br> App</h3>
+        <span class="services__button">View More 
+          <i class="uil uil-arrow-right services__button-icon"></i>
+        </span>
+      </div>
+      <div class="services__modal">
+        <div class="services__modal-content">
+          <i class="uil uil-times services__modal-close"></i>
+          <h3 class="services__modal-title">DawaWare – Medicine Authentication & Awareness Platform (SIH Project)</h3>
+          <p class="services__modal-description">
+
+💊 Developed a smart web application to verify the authenticity of medicines and provide detailed drug information
+<br>
+🧠 Integrated a personalized chatbot to assist users with medicine queries and quality checks
+<br>
+📦 Implemented QR code verification to ensure medicine originality and reduce counterfeit risks
+<br>
+⏰ Added features like medicine reminders, alternative suggestions, and manufacturer details
+<br>
+🌐 Designed a user-friendly UI focused on accessibility, trust, and real-time assistance
+
+</p>
+          <a href="https://prek-simon-says-game.vercel.app/" target="_blank" class="work__btn">Demo</a>
+          <a href="https://github.com/PrekshaJain1909/Simon-Says-Game" target="_blank" class="work__btn">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Simon Says Game -->
+    <div class="services__content">
+      <div class="services__card">
+        <img src="assets/img/simonsays.png" alt="Simon Sats Webpage" class="project__img">
+        <i class="uil uil-game-structure services__icon"></i>
+        <h3 class="services__title">Simon Says <br> Game</h3>
+        <span class="services__button">View More 
+          <i class="uil uil-arrow-right services__button-icon"></i>
+        </span>
+      </div>
+      <div class="services__modal">
+        <div class="services__modal-content">
+          <i class="uil uil-times services__modal-close"></i>
+          <h3 class="services__modal-title">Simon Says Game – Interactive Memory Game (Frontend Project)</h3>
+          <p class="services__modal-description">
+
+🎮 Created a classic “Simon Says” memory game using HTML, CSS, and JavaScript
+<br>
+🧠 Enhanced gameplay by dynamically increasing difficulty with each level
+<br>
+📱 Designed a fully responsive UI for both desktop and mobile devices
+<br>
+🧩 Strengthened DOM manipulation, game logic, and event handling skills</p>
+          <a href="https://prek-simon-says-game.vercel.app/" target="_blank" class="work__btn">Demo</a>
+          <a href="https://github.com/PrekshaJain1909/Simon-Says-Game" target="_blank" class="work__btn">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cat Fact Generator -->
+    <div class="services__content">
+      <div class="services__card">
+        <img src="assets/img/catfact.png" alt="Catfact Webpage" class="project__img">
+        <i class="uil uil-cat services__icon"></i>
+        <h3 class="services__title">Cat Fact<br>Generator</h3>
+        <span class="services__button">View More 
+          <i class="uil uil-arrow-right services__button-icon"></i>
+        </span>
+      </div>
+      <div class="services__modal">
+        <div class="services__modal-content">
+          <i class="uil uil-times services__modal-close"></i>
+          <h3 class="services__modal-title">Cat Fact Generator-Fun API-based Web App</h3>
+          <p class="services__modal-description">
+            
+🐱 Built a lightweight web application that fetches and displays random cat facts using a public API
+<br>
+🌐 Used HTML, CSS, and JavaScript to create a responsive and visually appealing interface
+<br>
+🔁 Implemented real-time API calls to deliver new facts at the click of a button
+<br>
+🎯 Strengthened skills in API integration, DOM manipulation, and event handling
+
+</p>
+          <a href="https://prek-random-cat-facts.vercel.app/" target="_blank" class="work__btn">Demo</a>
+          <a href="https://github.com/PrekshaJain1909/Random-Cat-Facts" target="_blank" class="work__btn">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- To-Do Smart Scheduler -->
+    <div class="services__content">
+      <div class="services__card">
+        <img src="assets/img/todo.png" alt="ToDo Webpage" class="project__img">
+        <i class="uil uil-schedule services__icon"></i>
+        <h3 class="services__title">To-Do <br> Scheduler</h3>
+        <span class="services__button">View More 
+          <i class="uil uil-arrow-right services__button-icon"></i>
+        </span>
+      </div>
+      <div class="services__modal">
+        <div class="services__modal-content">
+          <i class="uil uil-times services__modal-close"></i>
+          <h3 class="services__modal-title">To-Do Smart Scheduler – Productivity Web App</h3>
+          <p class="services__modal-description">
+
+✅ Developed a task management web app to help users plan, schedule, and organize daily activities efficiently
+<br>
+📅 Included features like task creation, editing, deletion, and priority tagging
+<br>
+⏰ Added smart scheduling logic to sort tasks by priority and deadlines
+<br>
+💻 Built using HTML, CSS, JavaScript, with a responsive design for mobile and desktop
+<br>
+🧠 Improved productivity UX with a clean interface and real-time DOM updates
+
+</p>
+          <a href="https://prek-to-do-list.vercel.app/" target="_blank" class="work__btn">Demo</a>
+          <a href="https://github.com/PrekshaJain1909/To-Do-List-" target="_blank" class="work__btn">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Spotify Clone -->
+    <div class="services__content">
+      <div class="services__card">
+        <img src="assets/img/spotify.png" alt="Spotify Clone" class="project__img">
+        <i class="uil uil-music services__icon"></i>
+        <h3 class="services__title">Spotify <br> Clone</h3>
+        <span class="services__button">View More 
+          <i class="uil uil-arrow-right services__button-icon"></i>
+        </span>
+      </div>
+      <div class="services__modal">
+        <div class="services__modal-content">
+          <i class="uil uil-times services__modal-close"></i>
+          <h3 class="services__modal-title">Spotify Clone</h3>
+          <p class="services__modal-description">My first project – a music streaming UI inspired by Spotify built with basic frontend tools.</p>
+          <a href="https://prek-to-do-list.vercel.app/" target="_blank" class="work__btn">Demo</a>
+          <a href="https://github.com/PrekshaJain1909/To-Do-List-" target="_blank" class="work__btn">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <span class="section__subtitle">Get in touch</span>
+            <h3 class="section__title">Contact Me</h3>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title contact__title-info">Talk to me</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">preksha190994@gmail.com</span>
+
+                            <a href="mailto:preksha190994@gmail.com" target="_blank" class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-whatsapp contact__card-icon'></i>
+                            <h3 class="contact__card-title">Whatsapp</h3>
+                            <span class="contact__card-data">8882050094</span>
+
+                            <a href="https://api.whatsapp.com/send?phone=+8882050094&text=Hey there!" target="_blank"
+                                class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title contact__title-form">Write Me your Message</h3>
+
+<form id="contactForm" action ="https://formspree.io/f/mdkdeone" method="POST" class="contact__form">
+  <div class="contact__form-div">
+    <label class="contact__form-tag">Name</label>
+    <input type="text" name="name" placeholder="Enter name" class="contact__form-input" required />
+  </div>
+
+  <div class="contact__form-div">
+    <label class="contact__form-tag">Mail</label>
+    <input type="email" name="email" placeholder="Enter email" class="contact__form-input" required />
+  </div>
+
+  <div class="contact__form-div contact__form-area">
+    <label class="contact__form-tag">Message</label>
+    <textarea name="message" cols="30" rows="10" placeholder="Write your Message" class="contact__form-input" required></textarea>
+  </div>
+<input type="hidden" name="_captcha" value="false">
+
+  <button type="submit" class="button">Send Message</button>
+  <p id="responseMessage" style="margin-top:10px; font-weight:bold;"></p>
+</form>
+
+
+                </div>
+
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Preksha</h1>
+
+            <ul class="footer__list">
+
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Home</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#skills" class="footer__link">Skills</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#education" class="footer__link">Education</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#experience" class="footer__link">Experience</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#services" class="footer__link">Services</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#project" class="footer__link">Projects</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#achievements" class="footer__link">Achievement</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#contact" class="footer__link">Contact</a>
+                </li>
+            </ul>
+<ul class="footer__social">
+  <li class="footer__social-item">
+    <a href="https://leetcode.com/u/Preksha_1909/" class="footer__social-link" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" style="height: 1rem; width: 1rem;">
+</a>
+  </li>
+  
+  <li class="footer__social-item">
+    <a href="https://www.linkedin.com/in/preksha-jain03" class="footer__social-link linkedin"><i class='bx bxl-linkedin'></i></a>
+  </li>
+   <li class="footer__social-item">
+    <a href="https://github.com/PrekshaJain1909" class="footer__social-link github"><i class='bx bxl-github'></i></a>
+  </li>
+  <li class="footer__social-item">
+    <a href="https://www.instagram.com/stupendous_prek?igsh=OW4zeXl4cndzdXV1" class="footer__social-link instagram"><i class='bx bxl-instagram'></i></a>
+  </li>
+ 
+  
+</ul>
+
+
+                <span class="footer__copy">
+        &#169; 2025 Preksha Jain. All rights reserved.
+    </span>
+        </div>
+    </footer>
+    </body>
+
+    <!--=============== SCROLLREVEAL ===============-->
+
+    <!-- <script src="assets/js/scrollreveal.min.js"></script> -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+    <script>AOS.init();</script>
+
+
+
+</html>
