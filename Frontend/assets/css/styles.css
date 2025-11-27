@@ -2263,3 +2263,189 @@ html,
 body {
   overflow-x: hidden;
 }
+/* =========================================
+   🔧 RESPONSIVE TWEAKS / FIXES (ADD AT END)
+   ========================================= */
+
+/* Tablet & small laptop tweaks */
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+
+  .section {
+    padding: 3rem 1.25rem;
+  }
+
+  .home__container {
+    padding: 3rem 1.25rem 2rem;
+  }
+
+  .work__container {
+    padding: 2rem 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+
+  .skills {
+    padding: 3rem 1.5rem;
+  }
+}
+
+/* Main mobile breakpoint */
+@media screen and (max-width: 768px) {
+  /* Make generic container breathe */
+  .container {
+    padding: 0 1.25rem;
+  }
+
+  /* Experience & Education timelines become full-width, stacked */
+  .experience__container,
+  .education__container {
+    justify-content: flex-start;
+  }
+
+  .experience__timeline,
+  .education__timeline {
+    width: 100%;
+    padding: 0 1.25rem;
+  }
+
+  .experience__timeline {
+    border-left: 3px dashed #7c3aed;
+  }
+
+  .education__timeline {
+    border-right: none;
+    border-left: 3px dashed #7c3aed;
+    padding-left: 1.25rem;
+    padding-right: 0;
+  }
+
+  /* Move education dots to left so they don't overflow */
+  .education__dot {
+    right: auto;
+    left: -1rem;
+  }
+
+  /* Cards: slightly tighter padding */
+  .experience__card,
+  .education__card {
+    padding: 1.25rem;
+  }
+
+  /* Services: cards use full width */
+  .services__container {
+    gap: 1.5rem;
+  }
+
+  .services__content {
+    width: 100%;
+  }
+
+  /* Achievements padding */
+  .achievements {
+    padding: 3rem 1.25rem;
+  }
+
+  /* Contact – stack nicely */
+  .contact__container {
+    row-gap: 2.5rem;
+    padding: 0 0 3rem;
+  }
+}
+
+/* Small phones */
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 90%;
+  }
+
+  .section {
+    padding: 2.5rem 1rem;
+  }
+
+  .home__container {
+    padding: 2.5rem 1rem 1.5rem;
+  }
+
+  .work__container {
+    padding: 1.5rem 1rem;
+    gap: 1.5rem;
+  }
+
+  .skills,
+  .achievements {
+    padding: 2.5rem 1rem;
+  }
+
+  .experience__timeline,
+  .education__timeline {
+    padding: 0 1rem;
+  }
+
+  .experience__card,
+  .education__card {
+    padding: 1.1rem;
+  }
+
+  .services__content {
+    width: 100%;
+  }
+
+  .project__img,
+  .work__img {
+    height: 160px;
+  }
+}
+
+/* Very small screens */
+@media screen and (max-width: 360px) {
+  .work__card,
+  .skill__card,
+  .services__card {
+    padding: 1rem;
+  }
+
+  .home__name {
+    font-size: 1.8rem;
+  }
+}
+/* SweetAlert2 theming */
+.swal-theme-popup {
+  border-radius: 1.25rem !important;
+  padding: 1.75rem 1.5rem !important;
+  background: radial-gradient(circle at top, #fdf4ff 0%, #eef2ff 45%, #e0e7ff 100%);
+  box-shadow: 0 10px 30px rgba(124, 58, 237, 0.35) !important;
+  font-family: var(--body-font, "Quicksand", sans-serif);
+}
+
+.swal-theme-title {
+  color: #4c1d95 !important;
+  font-weight: 700 !important;
+  font-size: 1.4rem !important;
+}
+
+.swal-theme-text {
+  color: #374151 !important;
+}
+
+.swal-theme-confirm {
+  border-radius: 999px !important;
+  padding: 0.55rem 1.4rem !important;
+  font-weight: 600 !important;
+  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.35) !important;
+}
+
+/* Dark mode support */
+body.dark-mode .swal-theme-popup {
+  background: linear-gradient(135deg, #020617 0%, #020617 40%, #111827 100%) !important;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.9) !important;
+}
+
+body.dark-mode .swal-theme-title {
+  color: #e9d5ff !important;
+}
+
+body.dark-mode .swal-theme-text {
+  color: #e5e7eb !important;
+}
