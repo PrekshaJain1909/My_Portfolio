@@ -1,3 +1,18 @@
+// Toggle heart icon in Social Goals card
+const socialGoalHeart = document.getElementById('social-goal-heart');
+if (socialGoalHeart) {
+  socialGoalHeart.addEventListener('click', function () {
+    if (this.classList.contains('bx-heart')) {
+      this.classList.remove('bx-heart');
+      this.classList.add('bxs-heart');
+      this.style.color = '#a78bfa'; // purple for filled
+    } else {
+      this.classList.remove('bxs-heart');
+      this.classList.add('bx-heart');
+      this.style.color = '';
+    }
+  });
+}
 // Navigation Toggle
 document.getElementById('nav-toggle')?.addEventListener('click', () => {
   const navMenu = document.getElementById('nav-menu');

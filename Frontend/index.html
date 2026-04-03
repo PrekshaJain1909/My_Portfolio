@@ -116,45 +116,49 @@
 
   </div>
 </section>
-
         <!--=============== ABOUT ===============-->
-       <section class="about section" id="about">
+       <section class="about section about__bg" id="about">
   <span class="section__subtitle">My Intro</span>
   <h2 class="section__title">About Me</h2>
 
-  <div class="about__container container grid">
-    <img src="assets/img/prek.jpg" alt="About Preksha" class="about__img" />
-
+  <div class="about__container container grid about__container--noimg about__fadein">
     <div class="about__data">
       <div class="about__info">
-        <div class="about__box">
+        <div class="about__box about__box-animate">
           <i class='bx bx-award about__icon'></i>
           <h3 class="about__title">Experience</h3>
-          <span class="about__subtitle">6+ Months Coding</span>
+          <span class="about__subtitle">10+ Months Coding</span>
+          <div class="about__award-photo-wrapper">
+          </div>
         </div>
-
-        <div class="about__box">
+        <div class="about__box about__box-animate" style="animation-delay:0.1s;">
           <i class='bx bx-briefcase-alt about__icon'></i>
           <h3 class="about__title">Completed</h3>
           <span class="about__subtitle">10+ Projects</span>
         </div>
+        <div class="about__box about__box-animate" style="animation-delay:0.2s;">
+          <i class='bx bx-heart about__icon' id="social-goal-heart" style="cursor:pointer;"></i>
+          <h3 class="about__title">Social Goals</h3>
+          <span class="about__subtitle">Support Orphans, Animals <br> & Old Age Homes</span>
+        </div>
+      </div>
 
-        <div class="about__box">
-  <i class='bx bx-heart about__icon'></i>
-  <h3 class="about__title">Social Goals</h3>
-  <span class="about__subtitle">Support Orphans, Animals <br> & Old Age Homes</span>
-</div>
-
+      <div class="about__divider about__icon-row">
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-rocket'></i>
+        <i class='bx bxs-bulb'></i>
+        <i class='bx bxs-heart'></i>
       </div>
 
       <p class="about__description">
-       I’m Preksha Jain, selected for the prestigious Super 30 program by Anand Kumar Sir. With 500+ LeetCode problems solved in C++,
-I’m deeply passionate about clean, efficient code.
-<br> As a full-stack developer, I’ve built impactful projects like Couple Tracking Website using the MERN stack and developed a Bus Fee Manager website for my Uncle’s transport service. <br>
-Alongside, I gained practical experience through internships at Globe Capital Market Limited and Parihar India.
+        I’m Preksha Jain, a Super 30 Scholar mentored by Anand Kumar Sir, with a strong foundation in problem-solving and software development.<br><br>
+        <b>600+ DSA problems</b> solved on LeetCode using C++, reflecting my focus on writing clean, optimized, and efficient code.<br><br>
+        MERN Stack Developer with hands-on experience building real-world applications, including a <b>Couple Tracking Website</b> and a <b>Fee Flow</b> for  managing fees of students, delivering practical and user-focused solutions.<br><br>
+        Industry and research experience through internships at <b>Globe Capital Market Limited</b>, <b>Parihar India</b>, and <b>Mednex Research Solution</b>, working on real-world problem statements, contributing to development and testing, and enhancing my understanding of scalable systems.<br><br>
+        Hack2Hustle Hackathon Winner, GGSOC’25 participant, and WeForShe’24 Finalist, with a passion for continuous learning, problem-solving, and building impactful tech solutions.
       </p>
-
-      <a href="#contact" class="button about__button-contact">Contact Me</a>
+      <blockquote class="about__quote">"Every problem I solve sharpens the engineer I’m becoming."
+</span></blockquote>
     </div>
   </div>
 </section>
@@ -177,7 +181,7 @@ Alongside, I gained practical experience through internships at Globe Capital Ma
           <span class="education__institute">Bharati Vidyapeeth's College of Engineering, GGSIPU | 2022 – 2026</span>
           <p class="education__description">
             Pursuing full-time engineering with a focus on Full-Stack Development, DSA, and Software Engineering.<br>
-            <strong>Percentage:</strong> 81.09%
+            <strong>Percentage:</strong> 83.44%
           </p>
         </div>
       </div>
@@ -230,6 +234,16 @@ Alongside, I gained practical experience through internships at Globe Capital Ma
       <div class="skill-bar"><div class="progress" style="width: 95%"></div></div>
     </div>
 
+    <!-- PROGRAMMING LANGUAGES -->
+    <div class="skill__card backend">
+      <h3>C++</h3>
+      <div class="skill-bar"><div class="progress" style="width: 90%"></div></div>
+    </div>
+    <div class="skill__card backend">
+      <h3>Python</h3>
+      <div class="skill-bar"><div class="progress" style="width: 80%"></div></div>
+    </div>
+
     <div class="skill__card frontend">
       <h3>CSS</h3>
       <div class="skill-bar"><div class="progress" style="width: 90%"></div></div>
@@ -272,6 +286,15 @@ Alongside, I gained practical experience through internships at Globe Capital Ma
     </div>
 
     <div class="skill__card backend">
+      <h3>RESTful APIs</h3>
+      <div class="skill-bar"><div class="progress" style="width: 85%"></div></div>
+    </div>
+    <div class="skill__card backend">
+      <h3>Microservices Architecture</h3>
+      <div class="skill-bar"><div class="progress" style="width: 75%"></div></div>
+    </div>
+
+    <div class="skill__card backend">
       <h3>MongoDB</h3>
       <div class="skill-bar"><div class="progress" style="width: 80%"></div></div>
     </div>
@@ -308,8 +331,35 @@ Alongside, I gained practical experience through internships at Globe Capital Ma
     </div>
 
     <div class="skill__card tools">
+      <h3>Postman</h3>
+      <div class="skill-bar"><div class="progress" style="width: 80%"></div></div>
+    </div>
+    <div class="skill__card tools">
+      <h3>VS Code</h3>
+      <div class="skill-bar"><div class="progress" style="width: 85%"></div></div>
+    </div>
+
+    <div class="skill__card tools">
       <h3>Docker</h3>
       <div class="skill-bar"><div class="progress" style="width: 70%"></div></div>
+    </div>
+
+    <!-- COMPUTER SCIENCE FUNDAMENTALS -->
+    <div class="skill__card tools">
+      <h3>Data Structures and Algorithms</h3>
+      <div class="skill-bar"><div class="progress" style="width: 90%"></div></div>
+    </div>
+    <div class="skill__card tools">
+      <h3>Object-Oriented Programming</h3>
+      <div class="skill-bar"><div class="progress" style="width: 85%"></div></div>
+    </div>
+    <div class="skill__card tools">
+      <h3>DBMS</h3>
+      <div class="skill-bar"><div class="progress" style="width: 80%"></div></div>
+    </div>
+    <div class="skill__card tools">
+      <h3>Operating Systems (OS)</h3>
+      <div class="skill-bar"><div class="progress" style="width: 75%"></div></div>
     </div>
 
     <div class="skill__card tools">
@@ -324,6 +374,19 @@ Alongside, I gained practical experience through internships at Globe Capital Ma
   <br>
   <div class="experience__container container">
     <div class="experience__timeline">
+           <div class="experience__item">
+              <div class="experience__dot"></div>
+              <div class="experience__card">
+                <h3 class="experience__title">Software Development Engineer Intern</h3>
+                <span class="experience__company">Mednex Research Solution, Remote<br>Dec 2025 – Present</span>
+                <p class="experience__description">
+                  • Engineered 10+ scalable REST APIs, improving data processing efficiency by 25% and reducing latency.<br>
+                  • Designed RESTful services handling 5K+ requests/day, improving throughput by 30%, optimizing API performance and database query efficiency.<br>
+                  • Collaborated with frontend team to integrate APIs, reducing response errors by 20%.<br>
+                  • <b>Tech Stack:</b> Node.js, Express.js, MongoDB, React
+                </p>
+              </div>
+            </div>
 <div class="experience__item">
   <div class="experience__dot"></div>
   <a href="assets/pdf/gssoc_certificate.png" target="_blank" class="experience__card-link">
@@ -360,6 +423,8 @@ Alongside, I gained practical experience through internships at Globe Capital Ma
 
 
       <!-- Globe Capital -->
+            <!-- Mednex Research Solution -->
+       
       <!-- Globe Capital -->
 <div class="experience__item">
   <div class="experience__dot"></div>
@@ -465,6 +530,41 @@ Alongside, I gained practical experience through internships at Globe Capital Ma
       </div>
     </div>
 
+  </div>
+</section>
+<!--=============== ACHIEVEMENTS & RECOGNITION ===============-->
+<section class="achievements section" id="achievements">
+  <h2 class="section__title">Achievements & Recognition</h2>
+  <span class="section__subtitle">Proof of Excellence</span>
+  <div class="achievements__container container">
+    <div class="achievements__grid">
+      <!-- Hackathon Winner -->
+      <div class="achievement__card">
+        <img src="assets/img/award.jpeg" alt="Hackathon Winner" class="achievement__photo" />
+        <div class="achievement__content">
+          <h3 class="achievement__title">🏆 Hackathon Winner</h3>
+          <p class="achievement__desc">Won 1st place for innovative solution at Hack2Hustle Hackathon 2025.</p>
+        </div>
+      </div>
+      <!-- Super 30 Scholar -->
+      <div class="achievement__card">
+        <img src="assets/img/prek.jpg" alt="Super 30 Scholar" class="achievement__photo" />
+        <div class="achievement__content">
+          <h3 class="achievement__title">🎓 Super 30 Scholar</h3>
+          <p class="achievement__desc">Selected and mentored by Anand Kumar Sir in the prestigious Super 30 program.</p>
+        </div>
+      </div>
+      <!-- WeForShe Finalist -->
+      <div class="achievement__card">
+        <div class="achievement__photo achievement__photo--icon">🌟</div>
+        <div class="achievement__content">
+          <h3 class="achievement__title">WeForShe Finalist</h3>
+          <p class="achievement__desc">Finalist in WeForShe’24 for impactful tech-driven social project.</p>
+        </div>
+      </div>
+      <!-- GSSoC Contributor -->
+     
+    </div>
   </div>
 </section>
 
@@ -992,6 +1092,12 @@ Alongside, I gained practical experience through internships at Globe Capital Ma
   }
 </script>
 
+      <!-- Floating WhatsApp Button -->
+      <a href="https://wa.me/8882050094" class="floating-whatsapp" target="_blank" title="Message me">
+        <span class="floating-whatsapp__icon">
+          <i class='bx bxl-whatsapp'></i>
+        </span>
+      </a>
     </body>
 
     <!--=============== SCROLLREVEAL ===============-->
