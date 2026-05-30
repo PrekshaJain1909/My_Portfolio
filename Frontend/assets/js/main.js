@@ -91,6 +91,13 @@ const skillObserver = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       entry.target.classList.add('reveal');
+      // Animate progress bar from data attribute
+      const prog = entry.target.querySelector('.progress');
+      if (prog) {
+        const targetWidth = prog.dataset.progress || prog.style.width || '';
+        // apply with small delay for smoother effect
+        setTimeout(() => { prog.style.width = targetWidth; }, 150);
+      }
     }
   });
 }, { threshold: 0.2 });

@@ -9,7 +9,8 @@
 
   <!--=============== SEO ===============-->
   <meta name="description" content="Preksha Jain - Full Stack Developer Portfolio. Showcasing projects, skills, and achievements in web development, backend, and programming.">
-  <meta name="keywords" content="Preksha Jain, Portfolio, Web Developer, Full Stack Developer, MERN, C++, Projects, Resume">
+  <meta name="description" content="Preksha Jain — Software Engineer. Full-stack and AI integration engineer building scalable web and AI-powered products.">
+  <meta name="keywords" content="Preksha Jain, Portfolio, Software Engineer, Full Stack Developer, AI Integration, MERN, Projects, Resume">
   <meta name="author" content="Preksha Jain">
 <!-- Open Graph for WhatsApp / LinkedIn / Facebook -->
 <meta property="og:title" content="Preksha's Portfolio">
@@ -84,11 +85,12 @@
     <div class="home__data">
       <span class="home__greeting">Hello, I'm</span>
       <h1 class="home__name">Preksha Jain</h1>
-      <h3 class="home__education">Full Stack Developer | MERN | C++</h3>
+    <h3 class="home__education">Software Engineer | Full Stack Developer | AI Integration Engineer</h3>
+    <p class="home__tagline">Building scalable full-stack applications, backend systems, and AI-powered digital products.</p>
       
       <div class="home__button">
         <a 
-       download href="assets/pdf/PrekResume.pdf" target="_blank" class="button button--ghost">Download Resume</a>
+       download href="assets/pdf/PrekResume1.pdf" target="_blank" class="button button--ghost">Download Resume</a>
         <a href="#about" class="button">About</a>
       </div>
     </div>
@@ -127,14 +129,14 @@
         <div class="about__box about__box-animate">
           <i class='bx bx-award about__icon'></i>
           <h3 class="about__title">Experience</h3>
-          <span class="about__subtitle">10+ Months Coding</span>
+          <span class="about__subtitle">10+ Months Industry Experience</span>
           <div class="about__award-photo-wrapper">
           </div>
         </div>
         <div class="about__box about__box-animate" style="animation-delay:0.1s;">
           <i class='bx bx-briefcase-alt about__icon'></i>
           <h3 class="about__title">Completed</h3>
-          <span class="about__subtitle">10+ Projects</span>
+          <span class="about__subtitle">12+ Production &amp; Personal Projects</span>
         </div>
         <div class="about__box about__box-animate" style="animation-delay:0.2s;">
           <i class='bx bx-heart about__icon' id="social-goal-heart" style="cursor:pointer;"></i>
@@ -151,14 +153,13 @@
       </div>
 
       <p class="about__description">
-        I’m Preksha Jain, a Super 30 Scholar mentored by Anand Kumar Sir, with a strong foundation in problem-solving and software development.<br><br>
-        <b>600+ DSA problems</b> solved on LeetCode using C++, reflecting my focus on writing clean, optimized, and efficient code.<br><br>
-        MERN Stack Developer with hands-on experience building real-world applications, including a <b>Couple Tracking Website</b> and a <b>Fee Flow</b> for  managing fees of students, delivering practical and user-focused solutions.<br><br>
-        Industry and research experience through internships at <b>Globe Capital Market Limited</b>, <b>Parihar India</b>, and <b>Mednex Research Solution</b>, working on real-world problem statements, contributing to development and testing, and enhancing my understanding of scalable systems.<br><br>
-        Hack2Hustle Hackathon Winner, GGSOC’25 participant, and WeForShe’24 Finalist, with a passion for continuous learning, problem-solving, and building impactful tech solutions.
+        I’m Preksha Jain, a Software Engineer with strong experience in full-stack development, backend engineering, and AI-powered application development.<br><br>
+        I have solved <b>700+ DSA problems</b>, strengthening my problem-solving and optimization skills across complex engineering challenges.<br><br>
+        My experience spans building scalable MERN applications, secure authentication systems, payment integrations, intelligent automation workflows, and AI-powered features including sentiment analysis and recommendation systems.<br><br>
+        Through internships and real-world product development, I’ve contributed to scalable backend systems, frontend engineering, and production-ready software solutions.<br><br>
+        I’m passionate about building impactful products at the intersection of software engineering and intelligent systems.
       </p>
-      <blockquote class="about__quote">"Every problem I solve sharpens the engineer I’m becoming."
-</span></blockquote>
+      <blockquote class="about__quote">"Building scalable systems, solving meaningful problems, and engineering intelligent digital experiences."</blockquote>
     </div>
   </div>
 </section>
@@ -224,148 +225,161 @@
     <button class="filter-btn active" data-filter="all">All</button>
     <button class="filter-btn" data-filter="frontend">Frontend</button>
     <button class="filter-btn" data-filter="backend">Backend</button>
+    <button class="filter-btn" data-filter="databases">Databases</button>
+    <button class="filter-btn" data-filter="ai">AI</button>
     <button class="filter-btn" data-filter="tools">Tools</button>
+    <button class="filter-btn" data-filter="cs">Core CS</button>
   </div>
 
-  <div class="skills__container">
-    <!-- FRONTEND SKILLS -->
-    <div class="skill__card frontend">
-      <h3>HTML</h3>
-      <div class="skill-bar"><div class="progress" style="width: 95%"></div></div>
-    </div>
-
-    <!-- PROGRAMMING LANGUAGES -->
-    <div class="skill__card backend">
-      <h3>C++</h3>
-      <div class="skill-bar"><div class="progress" style="width: 90%"></div></div>
-    </div>
-    <div class="skill__card backend">
-      <h3>Python</h3>
-      <div class="skill-bar"><div class="progress" style="width: 80%"></div></div>
-    </div>
-
-    <div class="skill__card frontend">
-      <h3>CSS</h3>
-      <div class="skill-bar"><div class="progress" style="width: 90%"></div></div>
-    </div>
-
-    <div class="skill__card frontend">
-      <h3>JavaScript</h3>
-      <div class="skill-bar"><div class="progress" style="width: 92%"></div></div>
-    </div>
-
-    <div class="skill__card frontend">
+  <div class="skills__container mixitup container">
+    <!-- FRONTEND -->
+    <div class="skill__card mix frontend">
       <h3>React.js</h3>
-      <div class="skill-bar"><div class="progress" style="width: 88%"></div></div>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="88%"></div></div>
     </div>
-
-    <div class="skill__card frontend">
-      <h3>Bootstrap</h3>
-      <div class="skill-bar"><div class="progress" style="width: 85%"></div></div>
+    <div class="skill__card mix frontend">
+      <h3>JavaScript</h3>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="92%"></div></div>
     </div>
-
-    <div class="skill__card frontend">
-      <h3>Material UI</h3>
-      <div class="skill-bar"><div class="progress" style="width: 80%"></div></div>
-    </div>
-
-    <div class="skill__card frontend">
-      <h3>Tailwind CSS</h3>
-      <div class="skill-bar"><div class="progress" style="width: 85%"></div></div>
-    </div>
-
-    <!-- BACKEND SKILLS -->
-    <div class="skill__card backend">
-      <h3>Node.js</h3>
-      <div class="skill-bar"><div class="progress" style="width: 85%"></div></div>
-    </div>
-
-    <div class="skill__card backend">
-      <h3>Express.js</h3>
-      <div class="skill-bar"><div class="progress" style="width: 83%"></div></div>
-    </div>
-
-    <div class="skill__card backend">
-      <h3>RESTful APIs</h3>
-      <div class="skill-bar"><div class="progress" style="width: 85%"></div></div>
-    </div>
-    <div class="skill__card backend">
-      <h3>Microservices Architecture</h3>
-      <div class="skill-bar"><div class="progress" style="width: 75%"></div></div>
-    </div>
-
-    <div class="skill__card backend">
-      <h3>MongoDB</h3>
-      <div class="skill-bar"><div class="progress" style="width: 80%"></div></div>
-    </div>
-
-    <div class="skill__card backend">
-      <h3>MySQL</h3>
-      <div class="skill-bar"><div class="progress" style="width: 78%"></div></div>
-    </div>
-
-    <div class="skill__card backend">
+    <div class="skill__card mix frontend">
       <h3>TypeScript</h3>
-      <div class="skill-bar"><div class="progress" style="width: 75%"></div></div>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="80%"></div></div>
+    </div>
+    <div class="skill__card mix frontend">
+      <h3>Tailwind CSS</h3>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="85%"></div></div>
+    </div>
+    <div class="skill__card mix frontend">
+      <h3>Bootstrap</h3>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="85%"></div></div>
+    </div>
+    <div class="skill__card mix frontend">
+      <h3>HTML5</h3>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="95%"></div></div>
+    </div>
+    <div class="skill__card mix frontend">
+      <h3>CSS3</h3>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="90%"></div></div>
+    </div>
+    <div class="skill__card mix frontend">
+      <h3>Context API</h3>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="78%"></div></div>
     </div>
 
-    <div class="skill__card backend">
-      <h3>Java</h3>
-      <div class="skill-bar"><div class="progress" style="width: 72%"></div></div>
+    <!-- BACKEND -->
+    <div class="skill__card mix backend">
+      <h3>Node.js</h3>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="85%"></div></div>
+    </div>
+    <div class="skill__card mix backend">
+      <h3>Express.js</h3>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="83%"></div></div>
+    </div>
+    <div class="skill__card mix backend">
+      <h3>REST APIs</h3>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="85%"></div></div>
+    </div>
+    <div class="skill__card mix backend">
+      <h3>Authentication</h3>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="82%"></div></div>
+    </div>
+    <div class="skill__card mix backend">
+      <h3>Webhooks</h3>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="75%"></div></div>
+    </div>
+    <div class="skill__card mix backend">
+      <h3>Cron Jobs</h3>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="74%"></div></div>
     </div>
 
-    <div class="skill__card backend">
-      <h3>Python</h3>
-      <div class="skill-bar"><div class="progress" style="width: 70%"></div></div>
+    <!-- DATABASES -->
+    <div class="skill__card mix databases">
+      <h3>MongoDB</h3>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="80%"></div></div>
+    </div>
+    <div class="skill__card mix databases">
+      <h3>MySQL</h3>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="78%"></div></div>
+    </div>
+    <div class="skill__card mix databases">
+      <h3>PostgreSQL</h3>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="75%"></div></div>
     </div>
 
-    <div class="skill__card backend">
-      <h3>C++</h3>
-      <div class="skill-bar"><div class="progress" style="width: 90%"></div></div>
+    <!-- AI & INTEGRATIONS -->
+    <div class="skill__card mix ai">
+      <h3>OpenAI API</h3>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="78%"></div></div>
+    </div>
+    <div class="skill__card mix ai">
+      <h3>Prompt Engineering</h3>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="72%"></div></div>
+    </div>
+    <div class="skill__card mix ai">
+      <h3>Sentiment Analysis</h3>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="74%"></div></div>
+    </div>
+    <div class="skill__card mix ai">
+      <h3>NLP Fundamentals</h3>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="70%"></div></div>
+    </div>
+    <div class="skill__card mix ai">
+      <h3>AI Workflow Integration</h3>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="72%"></div></div>
     </div>
 
-    <!-- TOOLS & DEPLOYMENT -->
-    <div class="skill__card tools">
+    <!-- TOOLS -->
+    <div class="skill__card mix tools">
       <h3>Git</h3>
-      <div class="skill-bar"><div class="progress" style="width: 85%"></div></div>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="85%"></div></div>
     </div>
-
-    <div class="skill__card tools">
+    <div class="skill__card mix tools">
+      <h3>GitHub</h3>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="85%"></div></div>
+    </div>
+    <div class="skill__card mix tools">
       <h3>Postman</h3>
-      <div class="skill-bar"><div class="progress" style="width: 80%"></div></div>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="80%"></div></div>
     </div>
-    <div class="skill__card tools">
-      <h3>VS Code</h3>
-      <div class="skill-bar"><div class="progress" style="width: 85%"></div></div>
-    </div>
-
-    <div class="skill__card tools">
+    <div class="skill__card mix tools">
       <h3>Docker</h3>
-      <div class="skill-bar"><div class="progress" style="width: 70%"></div></div>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="70%"></div></div>
+    </div>
+    <div class="skill__card mix tools">
+      <h3>VS Code</h3>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="85%"></div></div>
+    </div>
+    <div class="skill__card mix tools">
+      <h3>Vercel</h3>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="78%"></div></div>
+    </div>
+    <div class="skill__card mix tools">
+      <h3>Netlify</h3>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="75%"></div></div>
+    </div>
+    <div class="skill__card mix tools">
+      <h3>Render</h3>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="73%"></div></div>
     </div>
 
-    <!-- COMPUTER SCIENCE FUNDAMENTALS -->
-    <div class="skill__card tools">
-      <h3>Data Structures and Algorithms</h3>
-      <div class="skill-bar"><div class="progress" style="width: 90%"></div></div>
+    <!-- CORE CS -->
+    <div class="skill__card mix cs">
+      <h3>DSA</h3>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="90%"></div></div>
     </div>
-    <div class="skill__card tools">
-      <h3>Object-Oriented Programming</h3>
-      <div class="skill-bar"><div class="progress" style="width: 85%"></div></div>
+    <div class="skill__card mix cs">
+      <h3>OOP</h3>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="85%"></div></div>
     </div>
-    <div class="skill__card tools">
+    <div class="skill__card mix cs">
       <h3>DBMS</h3>
-      <div class="skill-bar"><div class="progress" style="width: 80%"></div></div>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="80%"></div></div>
     </div>
-    <div class="skill__card tools">
-      <h3>Operating Systems (OS)</h3>
-      <div class="skill-bar"><div class="progress" style="width: 75%"></div></div>
+    <div class="skill__card mix cs">
+      <h3>Operating Systems</h3>
+      <div class="skill-bar"><div class="progress" style="width: 0" data-progress="75%"></div></div>
     </div>
 
-    <div class="skill__card tools">
-      <h3>Deployment (Netlify, Vercel, Render)</h3>
-      <div class="skill-bar"><div class="progress" style="width: 75%"></div></div>
-    </div>
   </div>
 </section>
 <section class="experience section" id="experience">
@@ -374,16 +388,16 @@
   <br>
   <div class="experience__container container">
     <div class="experience__timeline">
-           <div class="experience__item">
+            <div class="experience__item">
               <div class="experience__dot"></div>
               <div class="experience__card">
-                <h3 class="experience__title">Software Development Engineer Intern</h3>
+                <h3 class="experience__title">Software Development Intern</h3>
                 <span class="experience__company">Mednex Research Solution, Remote<br>Dec 2025 – Present</span>
                 <p class="experience__description">
-                  • Engineered 10+ scalable REST APIs, improving data processing efficiency by 25% and reducing latency.<br>
-                  • Designed RESTful services handling 5K+ requests/day, improving throughput by 30%, optimizing API performance and database query efficiency.<br>
-                  • Collaborated with frontend team to integrate APIs, reducing response errors by 20%.<br>
-                  • <b>Tech Stack:</b> Node.js, Express.js, MongoDB, React
+                  • Built scalable workflow automation systems.<br>
+                  • Developed enterprise-grade APIs and integrations.<br>
+                  • Worked on conversational AI workflows.<br>
+                  • Contributed to production deployment pipelines.
                 </p>
               </div>
             </div>
@@ -412,9 +426,9 @@
       <h3 class="experience__title">Software Development Engineering Intern</h3>
       <span class="experience__company">Parihar India <br>Feb 2025 – July 2025</span>
       <p class="experience__description">
-        • Developed and maintained responsive websites using MERN stack.<br>
-        • Integrated frontend designs with backend APIs for dynamic user experiences.<br>
-        • Collaborated with the team to debug, test, and deploy production-ready code.<br><br>
+        • Built JWT authentication systems.<br>
+        • Developed 8+ APIs for core product features and integrations.<br>
+        • Optimized validation and data workflows to improve throughput and reliability.<br><br>
         <span class="certificate__link">📜 View Certificate</span>
       </p>
     </div>
@@ -433,9 +447,8 @@
       <h3 class="experience__title">Software Developer Engineering Intern</h3>
       <span class="experience__company">Globe Capital Market Limited<br>Jul 2024 – Aug 2024</span>
       <p class="experience__description">
-        • Developed scalable backend solutions using Node.js and MongoDB.<br>
-        • Ensured efficient data handling and robust API performance.<br>
-        • Worked with cross-functional teams to enhance application features and improve system reliability.<br><br>
+        • Resolved 15+ critical edge cases across production services.<br>
+        • Improved system reliability and overall stability through targeted fixes and monitoring enhancements.<br><br>
         <span class="certificate__link">📜 View Certificate</span>
       </p>
     </div>
@@ -467,11 +480,11 @@
 
   <div class="services__container">
     
-    <!-- Service 1: Frontend Development -->
+    <!-- Service 1: Frontend Engineering -->
     <div class="services__content">
       <div class="services__card">
         <i class="uil uil-web-grid services__icon"></i>
-        <h3 class="services__title">Frontend <br> Developer</h3>
+        <h3 class="services__title">Frontend <br> Engineering</h3>
         <span class="services__button">View More 
           <i class="uil uil-arrow-right services__button-icon"></i>
         </span>
@@ -480,19 +493,19 @@
       <div class="services__modal">
         <div class="services__modal-content">
           <i class="uil uil-times services__modal-close"></i>
-          <h3 class="services__modal-title">Frontend Developer</h3>
+          <h3 class="services__modal-title">Frontend Engineering</h3>
           <p class="services__modal-description">
-            I build responsive and interactive user interfaces using HTML, CSS, JavaScript, and React.js. I focus on clean UI, accessibility, and performance across all devices.
+            Building production-ready user interfaces with React, TypeScript, Tailwind, and performance-first best practices. Emphasis on accessibility, component design, and maintainable front-end architectures.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- Service 2: Backend Development -->
+    <!-- Service 2: Backend Systems -->
     <div class="services__content">
       <div class="services__card">
         <i class="uil uil-server services__icon"></i>
-        <h3 class="services__title">Backend <br> Developer</h3>
+        <h3 class="services__title">Backend <br> Systems</h3>
         <span class="services__button">View More 
           <i class="uil uil-arrow-right services__button-icon"></i>
         </span>
@@ -501,19 +514,19 @@
       <div class="services__modal">
         <div class="services__modal-content">
           <i class="uil uil-times services__modal-close"></i>
-          <h3 class="services__modal-title">Backend Developer</h3>
+          <h3 class="services__modal-title">Backend Systems</h3>
           <p class="services__modal-description">
-            I develop robust RESTful APIs and backend services using Node.js, Express, MongoDB, and MySQL. I focus on security, scalability, and optimized performance.
+            Designing and implementing scalable REST APIs, authentication, background jobs, and integrations. Focus on security, observability, and deployment-ready backends using Node.js, Express, and SQL/NoSQL databases.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- Service 3: Full Project Development -->
+    <!-- Service 3: AI-Powered Applications -->
     <div class="services__content">
       <div class="services__card">
         <i class="uil uil-layer-group services__icon"></i>
-        <h3 class="services__title">Full-Stack <br> Solutions</h3>
+        <h3 class="services__title">AI-Powered <br> Applications</h3>
         <span class="services__button">View More 
           <i class="uil uil-arrow-right services__button-icon"></i>
         </span>
@@ -522,9 +535,9 @@
       <div class="services__modal">
         <div class="services__modal-content">
           <i class="uil uil-times services__modal-close"></i>
-          <h3 class="services__modal-title">Full-Stack Solutions</h3>
+          <h3 class="services__modal-title">AI-Powered Applications</h3>
           <p class="services__modal-description">
-            I handle end-to-end development for websites and applications — from designing intuitive UIs to building powerful backends and deploying production-ready projects.
+            Integrating LLMs and AI APIs into products: prompt engineering, sentiment analysis, recommendation systems, and context-aware workflows. Production-minded integrations that respect privacy and cost-efficiency.
           </p>
         </div>
       </div>
@@ -574,12 +587,12 @@
   <h2 class="section__title">Projects</h2>
   <div class="services__container">
 
-<!-- Couple Tracker -->
+<!-- OurSpace (formerly Couple Tracker) -->
 <div class="services__content">
   <div class="services__card">
-    <img src="assets/img/coupleTracker.jpg" alt="Couple Tracker Website" class="project__img">
+    <img src="assets/img/coupleTracker.jpg" alt="OurSpace – AI Powered Relationship Wellness Platform" class="project__img">
     <i class="uil uil-heart services__icon"></i>
-    <h3 class="services__title">Couple <br> Tracker</h3>
+    <h3 class="services__title">OurSpace – AI Powered<br> Relationship Wellness</h3>
     <span class="services__button">View More 
       <i class="uil uil-arrow-right services__button-icon"></i>
     </span>
@@ -588,17 +601,12 @@
   <div class="services__modal">
     <div class="services__modal-content">
       <i class="uil uil-times services__modal-close"></i>
-      <h3 class="services__modal-title">Couple Tracker – Love Journal & Memory Timeline</h3>
+      <h3 class="services__modal-title">OurSpace – AI Powered Relationship Wellness Platform</h3>
       <p class="services__modal-description">
-❤️ A beautiful platform for couples to store, celebrate & relive their journey together  
-<br>
-📅 Add and track important dates like anniversaries, first meeting, birthdays & milestones  
-<br>
-💌 Save memories, pictures & love notes in a secure private timeline  
-<br>
-⏳ Automatic reminder system for special dates so nothing is ever forgotten  
-<br>
-🔐 Protected login ensures complete privacy for both partners  
+• AI sentiment analysis to surface mood and trends.<br>
+• Recommendation workflows for personalized activities and resources.<br>
+• Secure JWT authentication and privacy-first design.<br>
+• Context-aware interactions for improved user engagement.
       </p>
       <a href="https://our-space-pi.vercel.app/" target="_blank" class="work__btn">Demo</a>
       <a href="https://github.com/PrekshaJain1909/Our_Space" target="_blank" class="work__btn">GitHub</a>
@@ -620,18 +628,22 @@
         <div class="services__modal-content">
           <i class="uil uil-times services__modal-close"></i>
           <h3 class="services__modal-title">Fee Flow – Fee Management Web Application</h3>
-          <p class="services__modal-description">
+           <p class="services__modal-description">
             
-💰 Designed a simple and efficient web-based system to automate student bus fee record management
-<br>
-💳 Enabled admins to add, update, and delete student fee records through a clean UI
-<br>
-📋 Implemented features to track pending and paid fees in real time
-<br>
-🧾 Developed automatic receipt generation and fee summaries for streamlined operations
-   <br>
-🔔 Integrated automated notifications and reminders via Email/SMS/WhatsApp using cron jobs to ensure timely fee payments  
-       </p>
+    💰 Designed a simple and efficient web-based system to automate student bus fee record management
+    <br>
+    💳 Enabled admins to add, update, and delete student fee records through a clean UI
+    <br>
+    📋 Implemented features to track pending and paid fees in real time
+    <br>
+    🧾 Developed automatic receipt generation and fee summaries for streamlined operations
+      <br>
+    🔔 Integrated automated notifications and reminders via Email/SMS/WhatsApp using cron jobs to ensure timely fee payments
+    <br>
+    • Implemented payment workflow APIs for integrations with payment providers.
+    <br>
+    • Built an admin dashboard for monitoring, reporting, and manual overrides.
+         </p>
           <a href="https://navkar-service-45dn.vercel.app/" target="_blank" class="work__btn">Demo</a>
           <a href="https://github.com/PrekshaJain1909/Navkar-Service" target="_blank" class="work__btn">GitHub</a>
         </div>
